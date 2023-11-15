@@ -5,7 +5,7 @@ Christian Lapinig's site built on Adobe's AEM Edge Delivery Services.
 
 ## Environments
 - Preview: https://main--clapinig-site--christianlapinig.hlx.page/
-- Live: https:///main--clapinig-site--christianlapinig.hlx.live/
+- Live: https://main--clapinig-site--christianlapinig.hlx.live/
 
 ## Installation
 
