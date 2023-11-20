@@ -20,9 +20,9 @@
   --text-color: #000;
 
   /* fonts */
-  --body-font-family: stevie-sans, sans-serif;
+  --body-font-family: stevie, stevie-fallback;
   --heading-font-family: var(--body-font-family);
-  --fixed-font-family: stevie-sans, sans-serif;
+  --fixed-font-family: "stevie-sans", sans-serif;
 
   /* body sizes */
   --body-font-size-m: 22px;
@@ -42,10 +42,10 @@
 }
 
 @font-face {
-  font-family: stevie-sans;
+  font-family: stevie-fallback;
   size-adjust: 100.06%;
   ascent-override: 95%;
-  src: url("../fonts/StevieSans.otf");
+  src: local("Arial");
 }
 
 @media (min-width: 900px) {
@@ -84,7 +84,7 @@ h4,
 h5,
 h6 {
   font-family: var(--heading-font-family);
-  font-weight: 600;
+  font-weight: 500;
   line-height: 1.25;
   margin-top: 1em;
   margin-bottom: 0.5em;
@@ -263,6 +263,10 @@ main img {
 
 main .section {
   padding: 64px 16px;
+}
+
+main .section .default-content-wrapper {
+  font-weight: 100;
 }
 
 @media (min-width: 600px) {

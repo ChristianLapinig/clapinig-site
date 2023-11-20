@@ -1,27 +1,31 @@
 @font-face {
-  font-family: stevie-sans;
+  font-family: stevie;
   font-weight: 300;
   font-style: normal;
-  src: url('../fonts/StevieSansLight.otf') format('otf');
+  font-display: swap;
+  src: url("../fonts/StevieSansLight.otf");
 }
 
 @font-face {
-  font-family: stevie-sans;
+  font-family: stevie;
   font-weight: 400;
   font-style: normal;
-  src: url('../fonts/StevieSansBook.otf') format('otf');
+  font-display: swap;
+  src: url("../fonts/StevieSansBook.otf");
 }
 
 @font-face {
-  font-family: stevie-sans;
+  font-family: stevie;
   font-weight: 500;
   font-style: normal;
-  src: url('../fonts/StevieSans.otf') format('otf');
+  font-display: swap;
+  src: url("../fonts/StevieSans.otf");
 }
 
-@font-face {
-  font-family: stevie-sans;
-  font-weight: 700;
-  font-style: normal;
-  src: url('../fonts/StevieSansBold.otf') format('otf');
-}
+/* @font-face { */
+/*   font-family: stevie; */
+/*   font-weight: 700; */
+/*   font-style: normal; */
+/*   font-display: swap; */
+/*   src: url("../fonts/StevieSans-Bold.otf"); */
+/* } */
