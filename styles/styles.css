@@ -163,10 +163,10 @@ main pre {
   white-space: pre;
 }
 
-a:any-link {
+/* a:any-link {
   color: var(--link-color);
   text-decoration: none;
-}
+} */
 
 a:hover {
   text-decoration: underline;
@@ -274,6 +274,16 @@ main .section {
 
 main .section .default-content-wrapper {
   font-weight: 100;
+}
+
+main .section .default-content-wrapper > p > a {
+  text-decoration: none;
+  color: #8e8e8e;
+  transition: 0.3s ease;
+}
+
+main .section .default-content-wrapper > p > a:hover {
+  color: #000;
 }
 
 @media (min-width: 600px) {
