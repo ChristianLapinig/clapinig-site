@@ -10,8 +10,12 @@ footer .footer {
   margin: auto;
 }
 
-footer .footer p {
-  margin: 0;
+footer .footer a:hover::before {
+  background-size: 100% 2px;
+} 
+
+footer .footer span {
+  padding-right: 10px;
 }
 
 @media (min-width: 900px) {
